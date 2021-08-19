@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: aws-lambda-layer-nodejs-nuxt-installation
+
+Resources:
+  SDKlayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: sagar-chauhan-aws-lambda-layer-nodejs-nuxt-installation
+      Description: AWS SDK 2.713.0
+      ContentUri: ./layer
+      CompatibleRuntimes:
+        - nodejs14.x
+      LicenseInfo: 'Available under the MIT-0 license.'
+      RetentionPolicy: Retain

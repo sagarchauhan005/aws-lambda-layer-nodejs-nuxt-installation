@@ -1,0 +1,21 @@
+{
+  "name": "aws-lambda-layer-nodejs-nuxt-installation",
+  "version": "1.0.0",
+  "description": "A custom aws lambda layer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sagar Chauhan <coolsagar005@gmail.com>",
+  "license": "MIT-0",
+  "dependencies": {
+    "@nuxt/http": "^0.1.2",
+    "@nuxtjs/auth": "^4.9.1",
+    "axios": "^0.18.0",
+    "nuxt": "^2.6.3",
+    "nuxt-start": "^2.6.3",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-http": "^2.0.1"
+  }
+}
