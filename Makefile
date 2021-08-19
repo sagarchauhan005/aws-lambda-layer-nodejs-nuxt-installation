@@ -1,4 +1,6 @@
 deploy:
 	npm install
 	mkdir ./layer/nodejs -p
-	mv ./node_modules ./layer/nodejs
+	rm -r ./layer/nodejs/*
+	cp -R ./node_modules ./layer/nodejs
+	sam deploy
